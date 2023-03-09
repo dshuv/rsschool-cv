@@ -17,7 +17,13 @@ I don’t have a commercial experience, but I’ve always tried to realize my ow
 HTML&CSS, JS, Typescript, React, NextJs, OOP, DRY, GIT, GitHub, GitLab, VSCode, WebStorm.
 
 ## Education 
-Secondary Special Education
+ Secondary Special Education "Gomel State Road Construction College"
+
+__Courses__
+* [Udemy](https://udemy.com)
+* [freeCodeCamp](https://freecodecamp.org)
+* [CodeWars](https://www.codewars.com)
+* [LeetCode](https://leetcode.com/problemset/all/)
 
 ## Code Example
 Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
