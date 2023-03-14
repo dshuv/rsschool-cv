@@ -1,0 +1,94 @@
+* {
+    transition: .3s ease-in;
+}
+
+.container {
+    width: 550px;
+    margin: auto;
+}
+
+.pointer {
+    cursor: pointer;
+    user-select: none;
+}
+
+.cross-icon {
+    font-size: 36px;
+    display: none;
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    margin-top: 35px;
+}
+
+.accordion-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.accordion-item:last-of-type {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.accordion-item summary::marker {
+    font-size: 0;
+}
+
+.accordion-item[open] .cross-icon {
+    transform: rotate(45deg);
+}
+
+.accordion-item[open] .summary {
+    color: #000;
+}
+
+.summary {
+    color: #4040ff;
+    font-size: 28px;
+}
+
+.accordion:hover .cross-icon {
+    display: block;
+}
+
+.accordion:hover .summary {
+    color: #000;
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+    .summary {
+        font-size: 24px;
+    }
+
+    .cross-icon {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1079px) {
+    .summary {
+        font-size: 20px;
+    }
+
+    .cross-icon {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .summary {
+        font-size: 16px;
+    }
+
+    .cross-icon {
+        font-size: 20px;
+    }
+}
